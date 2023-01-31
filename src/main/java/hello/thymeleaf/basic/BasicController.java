@@ -70,6 +70,7 @@ public class BasicController {
         return "basic/date";
     }
 
+
     @GetMapping("/link")
     public String link(Model model) {
         model.addAttribute("param1", "data1");
